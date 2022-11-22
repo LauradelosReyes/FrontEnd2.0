@@ -1,0 +1,183 @@
+/*Fuente*/
+/*
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+*/
+/*Navbar*/
+.navbar.navbar-expand-lg.bg-dark{
+    background-color: #091616 !important;
+}
+
+ul.list-group-horizontal{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}
+
+.fa-brands.fa-linkedin.fa-2xl,
+.fa-brands.fa-github.fa-2xl,
+.fa-solid.fa-user-lock.fa-2xl{
+    color: #fff;
+}
+
+.fa-brands.fa-linkedin.fa-2xl:hover{
+    color:#29a0f5
+}
+
+.fa-brands.fa-github.fa-2xl:hover{
+    color:#090d0f
+}
+
+.fa-solid.fa-user-lock.fa-2xl:hover{
+    color:#ff6dd3
+}
+
+/*Banner*/
+section.banner{
+    background-image: url(../img/banner\ prueba\ \(1\).jpg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+     -msn-background-size: cover;
+}
+
+h3.intro{
+    padding-top: 13%;
+    font-size: 2.25rem;
+}
+
+h1.intro{
+  font-size: 3.3rem;
+}
+
+h2.intro{
+  font-size: 2.25rem;
+}
+
+/*.email form{
+    width: 20rem;
+    max-width: 100%;
+}
+
+.email form input:first-child{
+    display:inline-block;
+    width: 100%;
+    border: 0.2rem solid #090d0f;
+    outline: none;
+    border-radius: 1rem;
+    position: relative;
+    top:15%;
+    left: 50%;
+    right: 50%;
+}
+*/
+#sobremi{
+    background-color: #191919;
+}
+.sobreMi{
+    width: 100%;
+    padding:6rem 0;
+}
+
+.perfil{
+   height: auto;
+   width: 25rem;
+}
+
+.presentacion{
+    width: 34rem;
+}
+
+.main{
+    width: 70rem;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.presentacion h2{
+    color:#fff;
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 1.25rem;
+}
+
+.presentacion h5{
+    color:#fff;
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+
+.presentacion p{
+    color:#fff;
+    letter-spacing: 0.06rem;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    margin-bottom: 2.8rem;
+}
+
+/* Seccion de Educación */
+
+#educacion{
+    background-color: #191919;
+}
+
+.educacion{
+    width: 100%;
+    padding:6rem 0;
+}
+
+.container{
+    width: 70rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.educacion h1{
+    color:#fff;
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.certificados{
+    margin: 0.6rem 1.25rem;
+    border: 1px, solid #fefefe;
+    float:left;
+    width: 21rem;
+}
+
+.certificados img{
+    width: 100%;
+    height: auto;
+}
+
+/*.certificados{
+    border: 0.1rem solid #dadae4;
+    border-radius: 0.1rem;
+   
+}
+*/
+.pie{ 
+    padding: 0.9rem;
+    text-align: center;
+}
+ 
+.pie p{
+    color:#fff;
+}

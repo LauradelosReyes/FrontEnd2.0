@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web de Laura</title>
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ <!--Fontawesome-->
+ <script src="https://kit.fontawesome.com/bb52823792.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Sección de navbar-->
+    <section id="inicio">
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="/assets/img/logo AP.png" alt="logo Argentina Programa" width="120%" height="">
+            </a>
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/laura-anah%C3%AD-rojas-369838249/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></a></i></li>
+                <li class="list-group-item"><a href="https://github.com/LauradelosReyes" target="_blank"><i class="fa-brands fa-github fa-2xl"></a></i></li>
+                <!-- Button trigger modal -->
+                <!--Botón de login -->
+                <li class="list-group-item">
+                  <i class="fa-solid fa-user-lock fa-2xl" data-bs-toggle="modal" data-bs-target="#loginModal"></i>
+               </li> 
+           </ul>
+        </div>
+    </nav>
+   </section>
+    <!--Seccion de banner-->
+   <section class="banner">
+   <div class="sobreMi">
+    <h3 class="text-white text-center intro"> 
+       Hola, soy</h3>
+    <h1 class="text-white text-center intro"> 
+      Laura Rojas </h1>
+    <h2 class="text-white text-center intro"> 
+      Desarrolladora Full Stack Jr.</h2>
+      <div class="email text-center">
+        <form>
+           <input type="email" name="email" id="email" placeholder="Ingresa tu correo">
+           <input type="submit" name="submit" value="Empecemos">
+        </form>
+      </div>
+  </div>
+  </section>
+
+   <!--Sección de sobre mi-->
+<section id="sobremi" class="sobreMi">
+  <div class="main">
+    <img src="/assets/img/foto prueba.jpg" alt="Foto de Perfil prueba" class="perfil img-fluid w-25">
+    <div class="presentacion">
+      <h2>Sobre mí</h2>
+      <h5>Developer & designer</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae inventore illum ad ipsum? Aliquid porro doloribus est vero ratione nostrum ab dolorem ipsum libero. Labore omnis nihil dolor nostrum asperiores.</p>
+    </div>
+  </div>
+</section>
+
+ <!--Seccion Educación-->
+<section id="educacion" class="educacion">
+  <h1>Educación</h1>
+  <div class="container">
+  <div class="certificados">
+   <div class="foto">
+    <img src="/assets/img/certificadoAP (1).png" alt="Certificado Sé Programar">
+   </div>
+   <div class="pie">
+    <p>Sé programar, finalizado el 13 de abril de 2022</p>
+   </div>
+  </div>
+  <div class="certificados">
+    <div class="foto">
+     <img src="/assets/img/certificadoGoogleA (1).png" alt="Certificado Google Activate">
+    </div>
+    <div class="pie">
+     <p>Digitaliza paso a paso tu negocio con herramientas de Google finalizado el 22 de agosto de 2022</p>
+    </div>
+   </div>
+   <div class="certificados">
+    <div class="foto">
+     <img src="/assets/img/Pruebadecertificado.png" alt="">
+    </div>
+    <div class="pie">
+     <p>Desarrolladora Full Stack Jr. En proceso.</p>
+    </div>
+   </div>
+  </div>
+ 
+</section>
+
+<!--Sección habilidades-->
+<section>
+
+</section>
+
+
+<!--Modales-->
+      <!-- Modal de login -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar Sesión</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Ingresar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
